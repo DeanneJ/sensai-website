@@ -1,4 +1,5 @@
 import { Badge } from "./ui/badge"
+import { motion } from "framer-motion"
 
 export function SectionHeading({ eyebrow, title, description, centered = false, tone = "dark" }) {
     const titleClass = tone === "light" ? "text-[var(--brand-parchment-2)]" : "text-[var(--brand-charcoal-blue)]"
@@ -6,7 +7,13 @@ export function SectionHeading({ eyebrow, title, description, centered = false, 
         tone === "light" ? "text-[rgba(240,236,231,0.78)]" : "text-[rgba(36,71,89,0.82)]"
 
     return (
-        <div className={centered ? "mx-auto max-w-3xl text-center" : "max-w-3xl"}>
+        <motion.div 
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className={centered ? "mx-auto max-w-3xl text-center" : "max-w-3xl"}
+        >
             {eyebrow ? (
                 <Badge variant="accent" className={centered ? "mx-auto mb-4" : "mb-4"}>
                     {eyebrow}
@@ -16,6 +23,6 @@ export function SectionHeading({ eyebrow, title, description, centered = false, 
             {description ? (
                 <p className={`mt-4 text-base leading-7 sm:text-lg ${descriptionClass}`}>{description}</p>
             ) : null}
-        </div>
+        </motion.div>
     )
 }

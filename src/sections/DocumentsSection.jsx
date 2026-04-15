@@ -1,3 +1,5 @@
+import { memo } from "react"
+import { motion } from "framer-motion"
 import { Card, CardContent } from "../components/ui/card"
 import { Button } from "../components/ui/button"
 import { SectionHeading } from "../components/SectionHeading"
@@ -25,7 +27,7 @@ export function DocumentsSection({ documents }) {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <SectionHeading title={documents.title} />
                 <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                    {documents.items.map((item) => {
+                    {documents.items.map((item, index) => {
                         let resolvedHref = item.href;
                         if (item.label === "Topic Assessment") {
                             resolvedHref = topicAssessmentPdf;
@@ -34,7 +36,15 @@ export function DocumentsSection({ documents }) {
                         }
 
                         return (
-                            <Card key={item.label} className="flex h-full flex-col border-[rgba(28,59,79,0.08)] bg-[var(--brand-parchment)] transition-all hover:-translate-y-1 hover:shadow-md">
+                            <motion.div
+                                key={item.label}
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, margin: "-50px" }}
+                                transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
+                                className="flex h-full flex-col"
+                            >
+                                <Card className="flex h-full flex-col border-[rgba(28,59,79,0.08)] bg-[var(--brand-parchment)] transition-all hover:-translate-y-1 hover:shadow-md">
                                 <CardContent className="flex flex-1 flex-col p-4">
                                     <div className="flex items-start gap-2.5">
                                         <div className="flex h-8 w-8 shrink-0 items-center justify-center text-red-500">
@@ -87,6 +97,7 @@ export function DocumentsSection({ documents }) {
                                     </div>
                                 </CardContent>
                             </Card>
+                            </motion.div>
                         )
                     })}
                 </div>

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import { Card, CardContent } from "./ui/card"
 import { FaEnvelope, FaLinkedin } from "react-icons/fa"
 
@@ -10,8 +11,15 @@ export function MemberCard({ member, index, compact = false }) {
     const bodyClass = compact ? "flex flex-1 flex-col space-y-3 pt-1" : "flex flex-1 flex-col space-y-4 pt-2"
 
     return (
-        <Card className="flex h-full overflow-hidden border-[rgba(28,59,79,0.08)] bg-[var(--brand-parchment)] transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-[rgba(28,59,79,0.1)]">
-            <div className={`${wrapperClass} text-[var(--brand-parchment-2)]`}>
+        <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
+            className="flex h-full"
+        >
+            <Card className="flex h-full w-full overflow-hidden border-[rgba(28,59,79,0.08)] bg-[var(--brand-parchment)] transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-[rgba(28,59,79,0.1)]">
+                <div className={`${wrapperClass} w-full text-[var(--brand-parchment-2)]`}>
                 {member.image ? (
                     <div className={`aspect-square w-full overflow-hidden border border-[rgba(28,59,79,0.08)] bg-[var(--brand-parchment-2)] ${mediaRadiusClass}`}>
                         <img
@@ -61,6 +69,7 @@ export function MemberCard({ member, index, compact = false }) {
                     </div>
                 </div>
             </CardContent>
-        </Card>
+            </Card>
+        </motion.div>
     )
 }

@@ -128,6 +128,9 @@
     }
   body {
     @apply bg-background text-foreground antialiased;
+    background-image: radial-gradient(rgba(28, 59, 79, 0.05) 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-color: var(--background);
     }
   html {
     @apply scroll-smooth font-sans;

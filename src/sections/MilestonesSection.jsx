@@ -1,6 +1,7 @@
 import { Card, CardContent } from "../components/ui/card"
 import { Badge } from "../components/ui/badge"
 import { SectionHeading } from "../components/SectionHeading"
+import { motion } from "framer-motion"
 
 export function MilestonesSection({ milestones }) {
     return (
@@ -17,8 +18,12 @@ export function MilestonesSection({ milestones }) {
                             const isEven = index % 2 === 0
 
                             return (
-                                <div
+                                <motion.div
                                     key={item.title}
+                                    initial={{ opacity: 0, x: isEven ? -50 : 50, y: 30 }}
+                                    whileInView={{ opacity: 1, x: 0, y: 0 }}
+                                    viewport={{ once: true, margin: "-100px" }}
+                                    transition={{ duration: 0.6, ease: "easeOut" }}
                                     className={`relative flex flex-col md:flex-row items-start md:items-center justify-between gap-8 group`}
                                 >
                                     <div className={`hidden md:block md:w-1/2 ${isEven ? 'order-1' : 'order-3'}`} />
@@ -61,7 +66,7 @@ export function MilestonesSection({ milestones }) {
                                             </CardContent>
                                         </Card>
                                     </div>
-                                </div>
+                                </motion.div>
                             )
                         })}
                     </div>
