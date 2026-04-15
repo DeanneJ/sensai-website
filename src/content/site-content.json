@@ -1,0 +1,640 @@
+{
+  "site": {
+    "name": "SensAI",
+    "tagline": "Ethical & Emotionally Intelligent Social Media Plugin",
+    "description": "SensAI is a unified AI-powered social media plugin designed to enhance online safety, authenticity, and user well-being through cyberbullying detection, bot detection, explainable recommendations, and emotion-aware interaction.",
+    "copyright": "Copyright © 2026 SensAI"
+  },
+  "navigation": {
+    "primaryLinks": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "Milestones",
+        "href": "#milestones"
+      },
+      {
+        "label": "About Us",
+        "href": "#about"
+      },
+      {
+        "label": "Contact Us",
+        "href": "#contact"
+      }
+    ],
+    "domainLinks": [
+      {
+        "label": "Domain",
+        "href": "#domain"
+      },
+      {
+        "label": "Literature Survey",
+        "href": "#literature-survey"
+      },
+      {
+        "label": "Literature Review",
+        "href": "#literature-review"
+      },
+      {
+        "label": "Research Gap",
+        "href": "#research-gap"
+      },
+      {
+        "label": "Problem & Solution",
+        "href": "#research-problem"
+      },
+      {
+        "label": "Objectives",
+        "href": "#research-objectives"
+      },
+      {
+        "label": "Methodology",
+        "href": "#methodology"
+      }
+    ],
+    "resourceLinks": [
+      {
+        "label": "Technologies",
+        "href": "#technologies-used"
+      },
+      {
+        "label": "Documents",
+        "href": "#documents"
+      },
+      {
+        "label": "Presentations",
+        "href": "#presentations"
+      }
+    ]
+  },
+  "hero": {
+    "title": "SensAI: Ethical & Emotionally Intelligent Social Media Plugin",
+    "subtitle": "A real-time, explainable AI system that integrates cyberbullying detection, bot detection, emotion-aware interaction, and transparent recommendations into a single unified social media intelligence framework.",
+    "eyebrow": "Responsible & Explainable AI for Social Media",
+    "primaryCta": {
+      "label": "Explore Solution",
+      "href": "#research-problem"
+    },
+    "secondaryCta": {
+      "label": "View Milestones",
+      "href": "#milestones"
+    },
+    "stats": [
+      {
+        "label": "Core Modules",
+        "value": "🧩 4 Modules"
+      },
+      {
+        "label": "AI Approach",
+        "value": "🧠 Multimodal AI"
+      },
+      {
+        "label": "Deployment",
+        "value": "⚡ Real-Time"
+      }
+    ]
+  },
+  "problem": {
+    "title": "The Problem",
+    "items": [
+      "Fragmented content moderation",
+      "Cyberbullying in text and images",
+      "Fake and bot accounts",
+      "Lack of emotion-aware interactions"
+    ],
+    "summary": "Current social media platforms lack a unified system to ensure safe and meaningful user interactions."
+  },
+  "solution": {
+    "title": "Our Solution",
+    "items": [
+      "Detects cyberbullying in text and images",
+      "Identifies bot accounts using behavior patterns",
+      "Enables emotion-aware user interactions",
+      "Provides explainable friend recommendations"
+    ]
+  },
+  "domain": {
+    "title": "Social Media Intelligence Systems",
+    "intro": "Modern social media platforms rely on separate systems for moderation, recommendations, and user interaction, leading to fragmented and inefficient management.",
+    "sources": [
+      "User-generated content (posts, comments, images)",
+      "User behavior and activity logs",
+      "Platform recommendation systems",
+      "User interaction patterns"
+    ],
+    "summary": "SensAI addresses this by integrating safety, behavior analysis, emotion awareness, and explainability into a single unified AI system."
+  },
+  "literatureSurvey": {
+    "title": "Literature Survey",
+    "body": [
+      "Transformer models improve cyberbullying and emotion detection",
+      "Multimodal approaches enhance text and image understanding",
+      "Behavior-based methods improve bot detection accuracy"
+    ],
+    "gaps": [
+      "Lack of unified systems combining multiple functions",
+      "Limited focus on explainability",
+      "Weak support for real-time interaction"
+    ]
+  },
+  "literatureReview": {
+    "title": "Literature Review",
+    "existingSystems": [
+      "Focus on single tasks like moderation or recommendation",
+      "Struggle with image-based and contextual content",
+      "Depend on content-based features for bot detection",
+      "Lack transparency in decision-making"
+    ],
+    "knowledgeGraphSystems": [
+      "Improve data representation and relationships",
+      "Support better understanding of user interests"
+    ],
+    "summary": "However, existing systems are fragmented and do not provide a unified, explainable, and real-time solution."
+  },
+  "researchGap": {
+    "title": "Research Gap",
+    "items": [
+      {
+        "icon": "Layers",
+        "title": "Lack of Unified Systems",
+        "description": "Existing solutions focus on individual tasks like moderation or recommendation, without integration."
+      },
+      {
+        "icon": "Image",
+        "title": "Limited Multimodal Detection",
+        "description": "Many systems fail to detect harmful content in images and memes alongside text."
+      },
+      {
+        "icon": "EyeOff",
+        "title": "Lack of Explainability",
+        "description": "Most systems do not provide clear reasoning behind their decisions."
+      }
+    ]
+  },
+  "problemSolution": {
+    "title": "Research Problem & Proposed Solution",
+    "problemPoints": [
+      "Fragmented systems",
+      "Reactive moderation",
+      "Harmful interactions",
+      "Lack of transparency"
+    ],
+    "solutionPoints": [
+      "Unified AI plugin",
+      "Cyberbullying detection (text + image)",
+      "Behavior-based bot detection",
+      "Explainable and emotion-aware interaction"
+    ]
+  },
+  "researchObjectives": {
+    "title": "Research Objectives",
+    "items": [
+      {
+        "icon": "Shield",
+        "title": "Detect harmful content",
+        "description": "Identify cyberbullying in both text and image-based content."
+      },
+      {
+        "icon": "Activity",
+        "title": "Detect bot accounts",
+        "description": "Analyze user behavior patterns to identify automated or fake accounts."
+      },
+      {
+        "icon": "Heart",
+        "title": "Enable emotion-aware interaction",
+        "description": "Promote safe and empathetic user engagement based on emotional context."
+      },
+      {
+        "icon": "Eye",
+        "title": "Provide explainable recommendations",
+        "description": "Deliver transparent friend suggestions with clear reasoning."
+      }
+    ]
+  },
+  "methodology": {
+    "title": "Methodology",
+    "services": [
+      {
+        "icon": "Shield",
+        "title": "Cyberbullying Detection",
+        "subtitle": "Multimodal Content Moderation",
+        "description": "Detects harmful content in both text and images.",
+        "features": [
+          "Text classification using transformer models",
+          "Image analysis with vision-language models",
+          "OCR for extracting text from images",
+          "Fusion of text, image, and keyword signals"
+        ],
+        "extrasTitle": "Output",
+        "extras": [
+          "Allow",
+          "Warn",
+          "Delete"
+        ]
+      },
+      {
+        "icon": "Activity",
+        "title": "Bot Detection",
+        "subtitle": "Behavior-Based Analysis",
+        "description": "Identifies fake accounts using activity patterns.",
+        "features": [
+          "Temporal behavior feature extraction",
+          "Activity rate and posting patterns",
+          "Anomaly detection using hybrid models",
+          "Early-stage account analysis"
+        ],
+        "extrasTitle": "Key Signals",
+        "extras": [
+          "Posting frequency",
+          "Time intervals",
+          "Burst activity"
+        ]
+      },
+      {
+        "icon": "Heart",
+        "title": "Emotion-Aware System",
+        "subtitle": "User Interaction Layer",
+        "description": "Analyzes emotions to guide user interactions.",
+        "features": [
+          "Emotion detection from text",
+          "Facial emotion recognition from images",
+          "Sarcasm and slang detection",
+          "Reaction filtering based on emotion"
+        ],
+        "extrasTitle": "Capabilities",
+        "extras": [
+          "Emotion classification",
+          "Empathetic response suggestions"
+        ]
+      },
+      {
+        "icon": "Users",
+        "title": "Recommendation System",
+        "subtitle": "Explainable Matching",
+        "description": "Suggests connections based on shared interests.",
+        "features": [
+          "Semantic similarity using embeddings",
+          "Interest-based user matching",
+          "Cosine similarity ranking",
+          "Conversation starter suggestions"
+        ],
+        "extrasTitle": "Explainability",
+        "extras": [
+          "Shows common interests",
+          "Provides reasoning for recommendations"
+        ]
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Technologies Used",
+    "items": [
+      {
+        "name": "Python",
+        "category": "Backend"
+      },
+      {
+        "name": "FastAPI",
+        "category": "API"
+      },
+      {
+        "name": "React",
+        "category": "Frontend"
+      },
+      {
+        "name": "DistilBERT",
+        "category": "Text Analysis"
+      },
+      {
+        "name": "CLIP",
+        "category": "Image Analysis"
+      },
+      {
+        "name": "XGBoost",
+        "category": "Bot Detection"
+      },
+      {
+        "name": "SBERT",
+        "category": "Recommendation"
+      },
+      {
+        "name": "EasyOCR",
+        "category": "OCR"
+      }
+    ]
+  },
+  "milestones": {
+    "title": "Milestones & Mark Allocation",
+    "items": [
+      {
+        "period": "01",
+        "marks": "6%",
+        "title": "Proposal Presentation",
+        "description": "Initial research and concept presentation.",
+        "deadline": "TBD"
+      },
+      {
+        "period": "02",
+        "marks": "6%",
+        "title": "Proposal Report",
+        "description": "Formal project proposal documentation.",
+        "deadline": "TBD"
+      },
+      {
+        "period": "03",
+        "marks": "15%",
+        "title": "Progress Presentation-1 (50%)",
+        "description": "First progress checkpoint and validation at 50% completion.",
+        "deadline": "TBD"
+      },
+      {
+        "period": "04",
+        "marks": "18%",
+        "title": "Progress Presentation-2 (90%)",
+        "description": "Second major review and technical progress update at 90%.",
+        "deadline": "9th - 12th March 2026"
+      },
+      {
+        "period": "05",
+        "marks": "15%",
+        "title": "Final Report",
+        "description": "Individual comprehensive project report.",
+        "deadline": "26th April 2026"
+      },
+      {
+        "period": "06",
+        "marks": "4%",
+        "title": "Final Report (Group)",
+        "description": "Combined group final report and documentation.",
+        "deadline": "26th April 2026"
+      },
+      {
+        "period": "07",
+        "marks": "10%",
+        "title": "Final Presentation",
+        "description": "Final demonstration and defense.",
+        "deadline": "27th to 30th April 2026"
+      },
+      {
+        "period": "08",
+        "marks": "10%",
+        "title": "Viva",
+        "description": "Oral examination and technical Q&A.",
+        "deadline": "27th to 30th April 2026"
+      },
+      {
+        "period": "09",
+        "marks": "2%",
+        "title": "Website",
+        "description": "Project website and content delivery milestone.",
+        "deadline": "26th April 2026 (Submission) | 27th to 30th April 2026 (Evaluation)"
+      },
+      {
+        "period": "10",
+        "marks": "10%",
+        "title": "Research Paper",
+        "description": "Formal research write-up and contribution framing.",
+        "deadline": "4th May 2026 (Submission) | 30th May 2026 (Evidence)"
+      },
+      {
+        "period": "11",
+        "marks": "2%",
+        "title": "Check Lists",
+        "description": "Evaluation of checklist completions.",
+        "deadline": "30th April 2026"
+      },
+      {
+        "period": "12",
+        "marks": "2%",
+        "title": "Logbook",
+        "description": "Maintenance of project logbook.",
+        "deadline": "27th to 30th April 2026"
+      }
+    ]
+  },
+  "documents": {
+    "title": "Documents",
+    "items": [
+      {
+        "label": "Topic Assessment",
+        "date": "2024/01/19",
+        "type": "Group",
+        "href": "#"
+      },
+      {
+        "label": "Project Proposal",
+        "date": "2024/02/29",
+        "type": "Individual",
+        "href": "#"
+      },
+      {
+        "label": "Status Documents I",
+        "date": "2024/05/06",
+        "type": "Individual",
+        "href": "#"
+      },
+      {
+        "label": "Status Documents II",
+        "date": "2024/09/11",
+        "type": "Individual",
+        "href": "#"
+      },
+      {
+        "label": "Research Papers",
+        "date": "2024/09/30",
+        "type": "Group",
+        "href": "#"
+      },
+      {
+        "label": "Final Reports",
+        "date": "2024/12/01",
+        "type": "Group & Individual",
+        "href": "#"
+      },
+      {
+        "label": "Poster",
+        "date": "2024/10/28",
+        "type": "Group",
+        "href": "#"
+      }
+    ]
+  },
+  "presentations": {
+    "title": "Presentations",
+    "intro": "Please find all presentation slides related to this project below.",
+    "items": [
+      {
+        "label": "Proposal Presentation",
+        "date": "2025/08/01",
+        "type": "Group",
+        "href": "https://docs.google.com/presentation/d/1CXa7NKGGkrC4HYFQ0wWp3gzQ3pPikYaVuLbADAfJLU0/edit?slide=id.g3859675c26a_2_68#slide=id.g3859675c26a_2_68"
+      },
+      {
+        "label": "Progress Presentation I",
+        "date": "2025/12/06",
+        "type": "Group",
+        "href": "https://docs.google.com/presentation/d/10JXuLJM46lA21x24UIDXfCMMGotprrWe8_rYGgtcw5I/edit?slide=id.g3859675c26a_2_68#slide=id.g3859675c26a_2_68"
+      },
+      {
+        "label": "Progress Presentation II",
+        "date": "2026/03/11",
+        "type": "Group",
+        "href": "https://docs.google.com/presentation/d/1WITbR_0Hr-rWQIducf36_RaXqXiYkkArc6i3O3NGGpY/edit?slide=id.g3c5448b5c07_2_75#slide=id.g3c5448b5c07_2_75"
+      },
+      {
+        "label": "Final Presentation",
+        "date": "2025/10/28",
+        "type": "Group",
+        "href": "#"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "members": [
+      {
+        "name": "S . Rathnayake",
+        "role": "SUPERVISOR",
+        "position": "Senior Lecturer",
+        "organization": "Faculty of Computing | Data Science",
+        "location": "Sri Lanka",
+        "image": "/images/team/samadhi.jpeg",
+        "links": []
+      },
+      {
+        "name": "M. Nawarathne",
+        "role": "Co-SUPERVISOR",
+        "position": "Lecturer",
+        "organization": "Faculty of Computing | Data Science",
+        "location": "Sri Lanka",
+        "image": "/images/team/malithi.jpeg",
+        "links": []
+      },
+      {
+        "name": "N.S. Wickremasinghe",
+        "role": "TEAM MEMBER",
+        "position": "Research Team Leader",
+        "organization": "Faculty of Computing | Data Science",
+        "location": "Sri Lanka",
+        "image": "/images/team/nesha.jpeg",
+        "links": [
+          {
+            "label": "EMAIL",
+            "href": "mailto:it22335364@my.sliit.lk "
+          },
+          {
+            "label": "LINKEDIN",
+            "href": "https://lk.linkedin.com/in/nesha-wickremasinghe-063a2b314"
+          }
+        ]
+      },
+      {
+        "name": "U.P.L.I. Ullandupitiya",
+        "role": "TEAM MEMBER",
+        "position": "Research Team Member",
+        "organization": "Faculty of Computing | Data Science",
+        "location": "Sri Lanka",
+        "image": "/images/team/lihini.jpeg",
+        "links": [
+          {
+            "label": "EMAIL",
+            "href": "mailto: it22318152@my.sliit.lk"
+          },
+          {
+            "label": "LINKEDIN",
+            "href": "https://lk.linkedin.com/in/lihini-ullandupitiya-23017b314"
+          }
+        ]
+      },
+      {
+        "name": "D.S. Jayawardena",
+        "role": "TEAM MEMBER",
+        "position": "Research Team Member",
+        "organization": "Faculty of Computing | Data Science",
+        "location": "Sri Lanka",
+        "image": "/images/team/deanne.jpeg",
+        "links": [
+          {
+            "label": "EMAIL",
+            "href": "mailto:it22556202@my.sliit.lk"
+          },
+          {
+            "label": "LINKEDIN",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "name": "J.K.D.S.D. Jayanetti",
+        "role": "TEAM MEMBER",
+        "position": "Research Team Member",
+        "organization": "Faculty of Computing | Data Science",
+        "location": "Sri Lanka",
+        "image": "/images/team/sayuni.jpeg",
+        "links": [
+          {
+            "label": "EMAIL",
+            "href": "mailto: it2285023@my.sliit.lk"
+          },
+          {
+            "label": "LINKEDIN",
+            "href": "https://lk.linkedin.com/in/sayuni-jayanetti-712b7028b"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Connect with us for demos, collaboration, and project discussions around SensAI",
+    "details": [
+      {
+        "label": "Email",
+        "value": "rp.sensai@gmail.com",
+        "href": "mailto:rp.sensai@gmail.com"
+      },
+     {
+  "label": "Domain",
+  "value": "Social Media Intelligence & Safety",
+  "href": "#domain"
+},
+{
+  "label": "Platform",
+  "value": "Ethical AI Social Media Plugin",
+  "href": "#home"
+}
+     
+    ],
+    "cta": {
+      "label": "Start a Conversation",
+      "href": "mailto:rp.sensai@gmail.com"
+    }
+  },
+  "footer": {
+    "description": "SensAI improves social media safety by detecting harmful content, identifying bots, and supporting responsible, emotion-aware user interactions.",
+    "socials": [
+      {
+        "label": "LinkedIn",
+        "href": "#"
+      },
+      {
+        "label": "GitHub",
+        "href": "#"
+      },
+      {
+        "label": "X",
+        "href": "#"
+      }
+    ],
+    "download": {
+      "label": "Project Overview",
+      "href": "#documents"
+    },
+    "privacy": {
+      "label": "Privacy Policy",
+      "href": "#"
+    }
+  }
+}
