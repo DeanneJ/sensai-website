@@ -2,7 +2,7 @@
   "site": {
     "name": "SensAI",
     "tagline": "Ethical & Emotionally Intelligent Social Media Plugin",
-    "description": "SensAI is a unified AI-powered social media plugin designed to enhance online safety, authenticity, and user well-being through cyberbullying detection, bot detection, explainable recommendations, and emotion-aware interaction.",
+    "description": "SensAI is a unified AI-powered social media plugin designed to enhance online safety, authenticity, and user well-being through cyberbullying detection, bot detection, explainable friend recommendations, and emotion-aware interaction.",
     "copyright": "Copyright © 2026 SensAI"
   },
   "navigation": {
@@ -208,8 +208,8 @@
       },
       {
         "icon": "Eye",
-        "title": "Provide explainable recommendations",
-        "description": "Deliver transparent friend suggestions with clear reasoning."
+        "title": "Provide explainable friend recommendations",
+        "description": "Deliver transparent friend suggestions with clear reasoning & interaction guidance."
       }
     ]
   },
@@ -271,19 +271,19 @@
       },
       {
         "icon": "Users",
-        "title": "Recommendation System",
+        "title": "Friend Recommendation",
         "subtitle": "Explainable Matching",
         "description": "Suggests connections based on shared interests.",
         "features": [
-          "Semantic similarity using embeddings",
+          "Uses semantic embeddings to represent user interests",
           "Interest-based user matching",
-          "Cosine similarity ranking",
-          "Conversation starter suggestions"
+          "Ranks recommended users using cosine similarity",
+          "Generates conversation starters based on shared interests and selected tone"
         ],
         "extrasTitle": "Explainability",
         "extras": [
-          "Shows common interests",
-          "Provides reasoning for recommendations"
+          "Provides reasoning for recommendations",
+          "Displays similarity scores for recommended users"
         ]
       }
     ]
@@ -621,7 +621,7 @@
       },
       {
         "label": "GitHub",
-        "href": "#"
+        "href": "https://github.com/rpsensai-tech/An-Ethical-and-Emotionally-Intelligent-Social-Media-Plugin"
       },
       {
         "label": "X",
